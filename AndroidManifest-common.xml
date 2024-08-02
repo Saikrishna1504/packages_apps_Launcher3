@@ -69,6 +69,9 @@
     <!-- LMOFreeform -->
     <uses-permission android:name="com.voltage.permission.START_FREEFORM" />
 
+    <!-- CTS -->
+    <uses-permission android:name="android.permission.ACCESS_CONTEXTUAL_SEARCH"/>
+
     <!--
     Permissions required for read/write access to the workspace data. These permission name
     should not conflict with that defined in other apps, as such an app should embed its package
